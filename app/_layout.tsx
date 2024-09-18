@@ -17,7 +17,11 @@ const RootLayout = () => {
   nowPlayingAction();
   return (
     <QueryClientProvider client={queryClient}>
-      <Stack />
+      <Stack
+        screenOptions={{
+          headerShown: false,
+        }}
+      />
     </QueryClientProvider>
   );
 };

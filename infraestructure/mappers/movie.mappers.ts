@@ -11,7 +11,6 @@ export class MovieMapper{
             poster: `https://image.tmdb.org/t/p/w500${movie.poster_path}`,
             backdrop: `https://image.tmdb.org/t/p/w500${movie.backdrop_path}`,
             rating: movie.vote_average
-
         }
     }
 }
